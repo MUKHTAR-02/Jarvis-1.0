@@ -198,7 +198,7 @@ def speak(text: str):
 
 def main():
     print("\n" + "=" * 54)
-    print("   🤖  AI Speech Chatbot  |  Powered by Groq (Free)")
+    print("J.A.R.V.I.S 🤖  |  Powered by Groq (Free)")
     print("=" * 54)
     print("  → Press [Enter] to start speaking")
     print("  → Press [Enter] again to stop recording")
