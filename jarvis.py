@@ -27,6 +27,7 @@ import soundfile as sf
 from groq import Groq
 import edge_tts
 import pygame
+# from typing import Optional    # For python 3.9 
 
 # ──────────────────────────────────────────────
 #  CONFIG — edit these values
@@ -63,6 +64,7 @@ pygame.mixer.init()        # Initialize audio playback
 #  STEP 1: RECORD AUDIO
 # ──────────────────────────────────────────────
 
+# def record_audio() -> Optional[np.ndarray]:    # For python 3.9
 def record_audio() -> np.ndarray | None:
     """
     Records from the microphone until the user presses Enter.
